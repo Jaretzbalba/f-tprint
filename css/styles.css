@@ -1,0 +1,42 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border: 1px solid red;
+  padding: 0;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 600;
+}
+
+.nav-item > * {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.title {
+  text-decoration: none;
+  border: 1px solid blue;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+.avatar {
+  border: 1px solid black;
+  border-radius: 50px;
+  height: 75px;
+  width: 75px;
+}
